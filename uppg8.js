@@ -11,7 +11,26 @@ function uppg8(){
 
 // anropa funktionen och skicka med arrayen som argument
 
+    let people = [
+        { name: "Anna", age: 33 },
+        { name: "Simon", age: 12 },
+        { name: "Samuel", age: 27 },
+        { name: "Lisa", age: 49 },
+        { name: "Berta", age: 67 }
+    ];
+
+    function over30(people) {
+        for(person of people) {
+            if(person.age > 30) {
+                console.log(person.name, "är äldre än 30 år.");
+            }
+        }
+    }
+
+    over30(people);
 
 }
+
+uppg8();
 
 module.exports = { uppg8 };

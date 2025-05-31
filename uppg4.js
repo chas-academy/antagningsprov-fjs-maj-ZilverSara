@@ -6,7 +6,15 @@ function uppg4() {
     // tilldela age 25
     // skriv ut med dotnotation åldern i konsolen
 
+    const person = {
+        name: "Maria",
+        age: 25
+    }
+
+    console.log(person.age, "år");
 
 }
+
+uppg4();
 
 module.exports = { uppg4 };

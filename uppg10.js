@@ -8,10 +8,29 @@ function uppg10(){
     // other ska innehålla alla andra tal
     // returnera ett objekt med de tre arrayerna
 
+    let bigEven = [];
+    let smallOdd = [];
+    let other = [];
+
+    for(number of numbers) {
+      if(number > 10 && number % 2 === 0) {
+        bigEven.push(number);
+      } else if(number < 10 && number % 2 === 1) {
+        smallOdd.push(number);
+      } else {
+        other.push(number);
+      }
+    }
+
+    function NumberArrays(bigEven, smallOdd, other) {
+      return { bigEven, smallOdd, other };
+    }
+
+    console.log(NumberArrays(bigEven, smallOdd, other));
   
-    
+}
+
+uppg10();
   
-  }
-  
-  module.exports = { uppg10 };
+module.exports = { uppg10 };
   
