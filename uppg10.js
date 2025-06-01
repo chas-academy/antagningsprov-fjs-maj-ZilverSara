@@ -25,12 +25,8 @@ function uppg10(){
     function NumberArrays(bigEven, smallOdd, other) {
       return { bigEven, smallOdd, other };
     }
-
-    console.log(NumberArrays(bigEven, smallOdd, other));
   
 }
-
-uppg10();
   
 module.exports = { uppg10 };
   

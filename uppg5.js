@@ -5,13 +5,11 @@ function uppg5() {
     // annars skriv ut "Det andra talet är större än det första"
 
     if(10 > 8) {
-        console.log("Det första talet är större än det andra.");
+        console.log("Det första talet är större än det andra");
     } else {
-        console.log("Det andra talet är större än det första.");
+        console.log("Det andra talet är större än det första");
     }
 
 }
-
-uppg5();
 
 module.exports = { uppg5 };

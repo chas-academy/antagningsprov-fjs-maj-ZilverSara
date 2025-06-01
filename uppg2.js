@@ -8,6 +8,4 @@ function uppg2() {
 
 }
 
-uppg2();
-
 module.exports = { uppg2 };

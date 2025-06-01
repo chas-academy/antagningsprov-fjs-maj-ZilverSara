@@ -9,11 +9,11 @@ function uppg7() {
     function sum(number1, number2) {
         return number1 + number2;
     }
-
-    console.log(sum(5, 10));
+    
+    function answer() {
+        return sum(5, 10);
+    }
 
 }
-
-uppg7();
 
 module.exports = { uppg7 };

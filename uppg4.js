@@ -11,10 +11,8 @@ function uppg4() {
         age: 25
     }
 
-    console.log(person.age, "år");
+    console.log(person.age);
 
 }
-
-uppg4();
 
 module.exports = { uppg4 };

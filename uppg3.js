@@ -9,10 +9,8 @@ function uppg3() {
 
     let a = 5;
     let b = 10;
-    console.log("Summan av a och b är", a + b);
+    console.log(a + b);
 
 }
-
-uppg3();
 
 module.exports = { uppg3 };
